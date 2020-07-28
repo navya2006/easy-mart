@@ -109,14 +109,14 @@ body{
 /*PRODUCTS*/
 .pro{
     background-image: url(images/pro.jpg);
-    height: 65%;
+    height: 15vw;
     width: 28%;
     z-index: -1;
     background-repeat: no-repeat;
     margin-top: 5vw;
     margin-left: 8vw;
     margin-bottom: 1vw;
-    border-radius: 5%;
+    border-radius: 3vw 3vw 0 3vw;
 }
 
 .pro h1{
@@ -126,6 +126,14 @@ body{
     padding-top: 2vw;
     padding-bottom: 0;
     font-family: 'Playfair Display', serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.pro .button:hover{
+    text-decoration: none;
 }
 
 .pro .stuff{
@@ -151,8 +159,8 @@ body{
 }
 
 .pro .stuff .bod img{
-    height: 13vw;
-    width: 14vw;
+    height: 10vw;
+    width: 13vw;
     border: 2px solid #000;
 }
 
@@ -162,4 +170,29 @@ body{
 
 .pro .stuff .bod:hover > p{
     color: var(--primary-color);
+}
+
+/*BEST SELLERS*/
+
+.best{
+    float: right;
+    background-image: url(images/gradient2.jpeg);
+    height: 15vw;
+    width: 28%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    margin-top: 27vw;
+    margin-right: 8vw;
+    margin-bottom: 1vw;
+    border-radius: 3vw 3vw 3vw 0;
+}
+
+.best h1{
+    float: right;
+    color: var(--secondary-color);
+    font-size: 1.7vw;
+    padding-right: 2vw;
+    padding-top: 2vw;
+    padding-bottom: 0;
+    font-family: 'Playfair Display', serif;
 }
