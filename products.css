@@ -47,20 +47,51 @@
 }
 
 .bruh h1{
-    
+    text-align: center;
+    font-size: 3vw;
+    color: var(--secondary-color);
+    font-family: 'Oswald', sans-serif;
+    padding-left: 3vw;
+    padding-top: 5vw;
+    padding-bottom: 2vw;
 }
 
 .store{
     border: #000 solid 2px;
-    margin-top: 5vw;
     margin-left: 3.8vw;
     padding: 1vw;
+    margin-bottom: 1.5vw;
 }
 
 .store img{
     height: 18vw;
     width: 18vw;
     border: 2px solid #000;
+}
+
+p{
+    font-size: 1.5vw;
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 0.5vw;
+}
+
+.cost{
+    font-size: 1.5vw;
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+}
+
+.cost .icon-lg{
+    float: right;
+    margin-top: -1.5vw;
+    font-size: 2em;
+    color: orange;
+    text-align: center;
+    padding: 1vw;
 }
 
 .store:hover{
