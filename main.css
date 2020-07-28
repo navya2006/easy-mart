@@ -2,7 +2,7 @@
     --primary-color: #f0f0f0;
     --secondary-color: #222;
     --color-three: #fff;
-    --color-four: #90cbf5;
+    --color-four: #bababa;
     --color-five: #fbc2fc;
 }
 
@@ -20,6 +20,10 @@ body{
     background-color: var(--primary-color);
     width: 100%;
     overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
 }
 
 /*NAVBAR*/
@@ -128,14 +132,6 @@ body{
     font-family: 'Playfair Display', serif;
 }
 
-a{
-    text-decoration: none;
-}
-
-.pro .button:hover{
-    text-decoration: none;
-}
-
 .pro .stuff{
     margin-left: 17vw;
     z-index: 1;
@@ -173,6 +169,13 @@ a{
 }
 
 /*BEST SELLERS*/
+.sell{
+    width: 100%;
+    background-color: var(--color-four);
+    margin-top: 30vw;
+    height: 38vw;
+    margin-bottom: 0;
+}
 
 .best{
     float: right;
@@ -181,7 +184,7 @@ a{
     width: 28%;
     z-index: -1;
     background-repeat: no-repeat;
-    margin-top: 27vw;
+    margin-top: 5vw;
     margin-right: 8vw;
     margin-bottom: 1vw;
     border-radius: 3vw 3vw 3vw 0;
@@ -195,4 +198,41 @@ a{
     padding-top: 2vw;
     padding-bottom: 0;
     font-family: 'Playfair Display', serif;
+}
+
+.best .seller{
+    float: right;
+    margin-right: 17vw;
+    z-index: 1;
+}
+
+.best .seller .bod{
+    background-color: #fff;
+    border: 1px solid transparent;
+    margin: 1vw;
+    transition: 0.3s;
+    padding: 1vw;
+    padding-bottom: 0;
+}
+
+.best .seller .bod p{
+    font-size: 1.4vw;
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 0.5vw;
+}
+
+.best .seller .bod img{
+    height: 10vw;
+    width: 13vw;
+    border: 2px solid #000;
+}
+
+.best .seller .bod:hover{
+    background-color: var(--secondary-color);
+}
+
+.best .seller .bod:hover > p{
+    color: var(--primary-color);
 }
