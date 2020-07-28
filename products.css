@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+   scroll-behavior: smooth;
+}
+
 /*NAVBAR2*/
 .navbar{
     background-color: #333;
