@@ -133,6 +133,7 @@ p{
 .tech{
     width: 100%;
     background-color: var(--color-seven);
+    padding-bottom: 3vw;
 }
 
 .tech h1{
