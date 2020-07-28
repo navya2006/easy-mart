@@ -101,3 +101,19 @@ p{
 .store:hover{
     background-color: var(--primary-color);
 }
+
+/*ACCESSORIES*/
+.access{
+    width: 100%;
+    background-color: var(--color-six);
+}
+
+.access h1{
+    text-align: center;
+    font-size: 3vw;
+    color: var(--secondary-color);
+    font-family: 'Oswald', sans-serif;
+    padding-left: 3vw;
+    padding-top: 5vw;
+    padding-bottom: 2vw;
+}
