@@ -3,7 +3,7 @@
     --secondary-color: #222;
     --color-three: #fff;
     --color-four: #bababa;
-    --color-five: #fbc2fc;
+    --color-five: #a3d9ff;
 }
 
 *{
@@ -83,7 +83,7 @@ a{
 
 .gallery{
     width: 100%;
-    padding-top: 2vw;
+    padding-top: 4vw;
     margin: 0;
     background-color: var(--color-four) ;
 }

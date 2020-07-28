@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*NAVBAR2*/
+.navbar{
+    background-color: #333;
+    width: 100%;
+    position: fixed;
+    position: absolute;
+    z-index: 999;
+}
+
+.navbar a{
+    display: inline-block;
+    color: #fff;
+    border: 3px solid transparent;
+    font-size: 2vw;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.3;
+    padding: 1.8vw 7.5vw; 
+    border-left: 1.5px solid #666;
+    border-right: 1.5px solid #666;
+    text-decoration: none;
+    position: relative;
+    transition: 0.3s;
+}
+
+.navbar a:hover{
+     -webkit-animation: change infinite 1s;
+}
+
+@keyframes change {
+  1%   {color: aqua;}
+  25%  {color: blueviolet}
+  40%  {color: chartreuse}
+  60% {color: #ff3399;}
+  80% {color:#cc00cc;}
+  100%{color:#0000ff;}
+}
+
+.bruh{
+    width: 100%;
+    background-color: var(--color-five);
+}
+
+.bruh h1{
+    
+}
+
+.store{
+    border: #000 solid 2px;
+    margin-top: 5vw;
+    margin-left: 3.8vw;
+    padding: 1vw;
+}
+
+.store img{
+    height: 18vw;
+    width: 18vw;
+    border: 2px solid #000;
+}
+
+.store:hover{
+    background-color: var(--primary-color);
+}
