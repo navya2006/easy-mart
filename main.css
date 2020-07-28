@@ -30,6 +30,70 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    text-decoration: none;
+}
+
+/*LOADER*/
+.load {
+   height: 100%;
+   width: 100%;
+   background-color: #000;
+   text-align: center;
+   padding-top: 20%;
+   z-index: 9999;
+}
+
+.mainBod {
+   display: none;
+}
+
+.loader-wheel-3 {
+   display: block;
+   position: relative;
+   border-radius: 50%;
+   border: 3px solid transparent;
+   border-top-color: #eee;
+   height: 150;
+   width: 150;
+   -webkit-animation: spin-3 2s linear infinite;
+}
+   
+.loader-wheel-3::after {
+   content: "";
+   position: absolute;
+   border-radius: 50%;
+   border: 3px solid transparent;
+   border-top-color: var(--color-five);
+   top: 5px;
+   left: 5px;
+   right: 5px;
+   bottom: 5px;
+   -webkit-animation: spin-3 3s linear infinite;
+}
+   
+.loader-wheel-3::before {
+   content: "";
+   position: absolute;
+   border-radius: 50%;
+   border: 3px solid transparent;
+   border-top-color: #7f7f7f;
+   top: 15px;
+   left: 15px;
+   right: 15px;
+   bottom: 15px;
+   -webkit-animation: spin-3 1.5s linear infinite;
+}
+
+@keyframes spin-3 {
+   0% {
+      transform: rotate(0deg)
+   }
+   100% {
+      transform: rotate(360deg)
+   }
+}
+
 /*NAVBAR*/
 .navb{
     background-color: var(--secondary-color);
@@ -239,4 +303,44 @@ a{
 
 .best .seller .bod:hover > p{
     color: var(--primary-color);
+}
+
+/*FOOTER*/
+.footer{
+    width: 100%;
+    background-color: #222;
+}
+
+
+.footer h1{
+    text-align: center;
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px #000; 
+    font-size: 9vw;
+    font-family: 'Raleway', cursive;
+    letter-spacing: 0.5vw;
+    padding-top: 7vw;
+	text-decoration:none !important;
+}
+
+.footer h2{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2vw;
+    padding-top: 0.5vw;
+    text-align: center;
+    letter-spacing: 0.4;
+	text-decoration:none !important;
+}
+
+.footer p{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.4;
+    font-size: 1.3vw;
+    text-align: center;
+    padding-top: 0.3vw;
+	text-decoration:none !important;
 }
