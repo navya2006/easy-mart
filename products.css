@@ -105,13 +105,13 @@ html{
   100%{color:#0000ff;}
 }
 
-.bruh{
+.div{
     width: 100%;
     background-color: var(--color-five);
     padding-bottom: 3vw;
 }
 
-.bruh h1{
+.div h1{
     text-align: center;
     font-size: 3vw;
     color: var(--secondary-color);
